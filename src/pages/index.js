@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 
 export default () => (
   <Layout>
-  <SEO title="Home | Gatsby App" />
+  <SEO />
   <h1>Hello World!</h1>
   </Layout>
   );
