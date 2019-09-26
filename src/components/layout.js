@@ -9,7 +9,7 @@ const Layout = props => {
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
   </header>
-    {props.children}
+    <main className={layoutStyles.main}>{props.children}</main>
     <footer>My Gatsby Site 2019</footer>
   </div>
   );
